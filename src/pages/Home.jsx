@@ -20,19 +20,16 @@ function Home() {
       <main className="flex-grow">
 
         {/*  Page sections */}
-        <HeroHome />
-        <FeaturesHome />
-        <FeaturesBlocks />
-        <Testimonials />
-        <Newsletter />
-
-      </main>
-
-      <Banner />
-
-      {/*  Site footer */}
-      <Footer />
-
+        {/*<HeroHome/>*/}
+        <FeaturesBlocks/>
+        <FeaturesHome/>
+        {/*<Testimonials/>*/} 
+        {/*<Newsletter/>*/}
+      
+      </main> 
+      {/*<Banner/>*/}
+      {/*Site footer*/}
+      <Footer/>
     </div>
   );
 }

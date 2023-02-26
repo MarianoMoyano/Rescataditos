@@ -22,3 +22,30 @@
 [x-cloak=""] {
     display: none;
 }
+
+.cssLogo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.cssLogoBig {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.cssifoundacat {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.featuresBlocksPhotoCats{
+    z-index: -1;
+
+}
+
+.textWhite {
+    color: rgb(255 255 255);
+}
