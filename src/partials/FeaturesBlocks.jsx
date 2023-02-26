@@ -41,7 +41,7 @@ function FeaturesBlocks() {
                   </g>
                   </g>
                 </svg> */}
-                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Rescata</h4>
+                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Rescatá</h4>
                 <p className="text-gray-600 text-center">Consejos para que puedas atrapar al gato dentro de una transportadora.</p>
               </div>
             </Link>
@@ -116,7 +116,7 @@ function FeaturesBlocks() {
                     </g>
                   </g>
                 </svg> */}
-                 <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Adopta</h4>
+                 <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">adoptá</h4>
                   <p className="text-gray-600 text-center">¡Te mostramos a algunos gatos con sus nuevas familias!</p>
               </div>
 
