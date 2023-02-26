@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function FeaturesBlocks() {
   return (
@@ -25,11 +26,12 @@ function FeaturesBlocks() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <Link to="/rescue">
+              <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
 
               <img className='cssifoundacat' src="/src/images/howtorescueacat.jpg" alt="howtorescueacat" />
-              {/*<svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fillRule="evenodd">
+                {/*<svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
                     <path className="stroke-current text-blue-300" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
@@ -37,14 +39,14 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
                     <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
                   </g>
-                </g>
-              </svg> */}
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Rescata</h4>
-              <p className="text-gray-600 text-center">Consejos para que puedas atrapar al gato dentro de una transportadora.</p>
-            </div>
-
+                  </g>
+                </svg> */}
+                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Rescata </h4>
+                <p className="text-gray-600 text-center">Consejos para que puedas atrapar al gato dentro de una transportadora.</p>
+              </div>
+            </Link>
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
              
               <img className='cssifoundacat' src="/src/images/howtorescueacat.jpg" alt="howtorescueacat" />
 
@@ -64,7 +66,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
               
               <img className='cssifoundacat' src="/src/images/complaints.jpg" alt="complaints" />
               {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
@@ -81,7 +83,7 @@ function FeaturesBlocks() {
             </div>
 
               {/* 4th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
               
               <img className='cssifoundacat' src="/src/images/donations.jfif" alt="donations" />
 
@@ -101,7 +103,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
 
               <img className='cssifoundacat' src="/src/images/adopt.jpg" alt="adopt" />
 
@@ -119,7 +121,7 @@ function FeaturesBlocks() {
               </div>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
 
               <img className='cssifoundacat' src="/src/images/ifoundacat.jpg" alt="ifoundacat" />
               {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">

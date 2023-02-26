@@ -38,9 +38,13 @@ function Header() {
           </div>
 
           {/* Site navigation */}
-{/* 
+ 
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
+              <li>
+                <Link to="https://docs.google.com/forms/d/1E2zJnvBNi6am_x8IpFVC54jUqK4OGgHEhIMadtJRN-o/viewform?chromeless=1&edit_requested=true" target='_blank' className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">Formulario de adopción</Link>
+              </li>
+{/* 
               <li>
                 <Link to="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
               </li>
@@ -52,9 +56,10 @@ function Header() {
                   </svg>                  
                 </Link>
               </li>
+ */}              
             </ul>
           </nav>
- */}
+ 
         </div>
       </div>
     </header>
