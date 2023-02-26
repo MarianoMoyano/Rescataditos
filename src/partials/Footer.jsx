@@ -163,6 +163,8 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
+          <h6 className="text-gray-800 font-medium mb-2">Rescataditos en adopción</h6>
+
           <div className="text-sm text-gray-600 mr-4">Made by <a className="text-blue-600 hover:underline" href="https://cruip.com/">Cruip</a>. All rights reserved.</div>
           <div className="text-sm text-gray-600 mr-4">
             <a target="_blank" href="https://icons8.com/icon/48841/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
