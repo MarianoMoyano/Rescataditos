@@ -4,26 +4,6 @@ import transito from '../images/transito.jpg'
 export default function Transito() {
     return (
 <section className="relative py-20" id="transita">
-          <div
-            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-            style={{ height: "80px" }}
-          >
-            <svg
-              className="absolute bottom-0 overflow-hidden"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="none"
-              version="1.1"
-              viewBox="0 0 2560 100"
-              x="0"
-              y="0"
-            >
-              <polygon
-                className="text-white fill-current"
-                points="2560 0 2560 100 0 100"
-              ></polygon>
-            </svg>
-          </div>
-
           <div className="container mx-auto px-4">
             <div className="h-96 overflow-hidden relative rounded-lg shadow-lg">
               <div className="w-full absolute left-0 top-1/2 " style={{ transform: "translate(0, -50%)"}} >
