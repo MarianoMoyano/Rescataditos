@@ -8,6 +8,8 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 import Banner from '../partials/Banner';
+import Ayudar from '../partials/Ayudar';
+import Transito from '../partials/Transito';
 
 
 function Home() {
@@ -26,6 +28,9 @@ function Home() {
         <FeaturesHome/>
         {/*<Testimonials/>*/} 
         {/*<Newsletter/>*/}
+
+        <Transito />
+        <Ayudar />
       
       </main> 
       {/*<Banner/>*/}
