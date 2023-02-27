@@ -16,8 +16,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4 textWhite">Rescataditos en adopcion</h2>
-            <p className="text-xl text-gray-600 textWhite">Aca te presentamos algunas de los consejos que te podemos ofrecer.</p>
+            <h2 className="h2 mb-4 textWhite">Rescataditos en adopción</h2>
+            <p className="text-xl text-gray-600 textWhite">Acá te presentamos algunos de los consejos que te podemos ofrecer.</p>
           </div>
 
           {/* Items */}
