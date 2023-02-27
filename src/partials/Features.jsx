@@ -4,12 +4,6 @@ import lactation from "/src/images/lactation.gif"
 import grid123456 from "/src/images/grid123456.gif"
 import images123 from "/src/images/images123.gif"
 
-
-
-
-import FeaturesBg from '../images/features-bg.png';
-import FeaturesElement from '../images/features-element.png';
-
 function Features() {
 
   const [tab, setTab] = useState(1);
