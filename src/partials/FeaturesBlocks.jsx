@@ -1,6 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Card from './Card';
+import howtorescueacat from "/src/images/howtorescueacat.jpg"
+import castrationmatters from "/src/images/castrationmatters.jpg"
+import complaints from "/src/images/complaints.jpg"
+import donations from "/src/images/donations.jfif"
+import adopt from "/src/images/adopt.jpg"
+import ifoundacat from "/src/images/ifoundacat.jpg"
+
 
 function FeaturesBlocks() {
   return (
@@ -24,21 +31,21 @@ function FeaturesBlocks() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
-            <Card img="/src/images/howtorescueacat.jpg" title="Rescatá" description="Consejos para atrapar al gato dentro de una transportadora." href="https://www.instagram.com/p/CZj5vZIFoZh/" />
+            <Card img={howtorescueacat} title="Rescatá" description="Consejos para atrapar al gato dentro de una transportadora." href="https://www.instagram.com/p/CZj5vZIFoZh/" />
             {/* 2nd item */}
-            <Card img="/src/images/howtorescueacat.jpg" title="Castrá" description="Castrá un gato y salvá miles de vidas." href="https://www.instagram.com/p/BwJ7E5nBNxc/" />
+            <Card img={castrationmatters} title="Castrá" description="Castrá un gato y salvá miles de vidas." href="https://www.instagram.com/p/BwJ7E5nBNxc/" />
 
             {/* 3rd item */}
-            <Card img="/src/images/complaints.jpg" title="Denuncias" description="Lista de datos y pasos para efectuar una denuncia por violencia animal." href="https://www.instagram.com/p/BsHRki1jA1H/" />
+            <Card img={complaints} title="Denuncias" description="Lista de datos y pasos para efectuar una denuncia por violencia animal." href="https://www.instagram.com/p/BsHRki1jA1H/" />
 
             {/* 4th item */}
-            <Card img="/src/images/donations.jfif" title="Doná" description="Si está en tus posibilidades cada peso nos ayuda a seguir." href="https://www.mercadopago.com.ar/payment-link/v1/redirect?preference-id=1212221756-55dfbc6d-b389-4740-9438-bea5da5bbad6&source=link" />
+            <Card img={donations} title="Doná" description="Si está en tus posibilidades cada peso nos ayuda a seguir." href="https://www.mercadopago.com.ar/payment-link/v1/redirect?preference-id=1212221756-55dfbc6d-b389-4740-9438-bea5da5bbad6&source=link" />
 
             {/* 5th item */}
-            <Card img="/src/images/adopt.jpg" title="Adoptá" description="Te mostramos a algunos gatos con sus nuevas familias." href="https://www.instagram.com/rescataditosenadopcionn/" />
+            <Card img={adopt} title="Adoptá" description="Te mostramos a algunos gatos con sus nuevas familias." href="https://www.instagram.com/rescataditosenadopcionn/" />
 
             {/* 6th item */}
-            <Card img="/src/images/ifoundacat.jpg" title="Transitá" description="Transitar salva vidas ♥️ Sumate como hogar de tránsito." href="https://www.instagram.com/p/CoshXVDDddu/" />
+            <Card img={ifoundacat} title="Transitá" description="Transitar salva vidas ♥️ Sumate como hogar de tránsito." href="https://www.instagram.com/p/CoshXVDDddu/" />
 
           </div>
 
