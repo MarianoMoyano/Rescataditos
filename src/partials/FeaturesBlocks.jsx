@@ -4,10 +4,10 @@ import Card from './Card';
 
 function FeaturesBlocks() {
   return (
-    <section className="relative">
+    <section className="relative overflow-hidden" id="home">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="featuresBlocksPhotoCats top-0 absolute inset-0" aria-hidden="true">
+      <div className="featuresBlocksPhotoCats left-0 top-1/2 absolute" style={{ transform: "translate(0, -60%)"}} aria-hidden="true">
         <img src="/src/images/cats.jpg" alt="" />
       </div>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
@@ -17,28 +17,28 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 textWhite">Rescataditos en adopción</h2>
-            <p className="text-xl text-gray-600 textWhite">Acá te presentamos algunos de los consejos que te podemos ofrecer.</p>
+            <p className="text-xl text-gray-900 textWhite"></p>
           </div>
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
-            <Card img="/src/images/howtorescueacat.jpg" title="Rescata" description="Consejos para que puedas atrapar al gato dentro de una transportadora." />
+            <Card img="/src/images/howtorescueacat.jpg" title="Rescatá" description="Consejos para atrapar al gato dentro de una transportadora." href="https://www.instagram.com/p/CZj5vZIFoZh/" />
             {/* 2nd item */}
-            <Card img="/src/images/howtorescueacat.jpg" title="Castración" description="Explicacion del porque hay que castrar a los gatos." />
+            <Card img="/src/images/howtorescueacat.jpg" title="Castrá" description="Castrá un gato y salvá miles de vidas." href="https://www.instagram.com/p/BwJ7E5nBNxc/" />
 
             {/* 3rd item */}
-            <Card img="/src/images/complaints.jpg" title="Denuncias" description="Lista de datos y pasos para efectuar una denuncia por violencia animal." />
+            <Card img="/src/images/complaints.jpg" title="Denuncias" description="Lista de datos y pasos para efectuar una denuncia por violencia animal." href="https://www.instagram.com/p/BsHRki1jA1H/" />
 
             {/* 4th item */}
-            <Card img="/src/images/donations.jfif" title="Donar" description="Si esta en tus posibilidades cada peso nos ayuda a seguir." />
+            <Card img="/src/images/donations.jfif" title="Doná" description="Si está en tus posibilidades cada peso nos ayuda a seguir." href="https://www.mercadopago.com.ar/payment-link/v1/redirect?preference-id=1212221756-55dfbc6d-b389-4740-9438-bea5da5bbad6&source=link" />
 
             {/* 5th item */}
-            <Card img="/src/images/adopt.jpg" title="Adopta" description="Te mostramos a algunos gatos con sus nuevas familias." />
+            <Card img="/src/images/adopt.jpg" title="Adoptá" description="Te mostramos a algunos gatos con sus nuevas familias." href="https://www.instagram.com/rescataditosenadopcionn/" />
 
             {/* 6th item */}
-            <Card img="/src/images/ifoundacat.jpg" title="Encontre un gato" description="Pasos para que un gato callejero entre a tu casa." />
+            <Card img="/src/images/ifoundacat.jpg" title="Transitá" description="Transitar salva vidas ♥️ Sumate como hogar de tránsito." href="https://www.instagram.com/p/CoshXVDDddu/" />
 
           </div>
 

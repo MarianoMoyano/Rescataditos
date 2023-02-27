@@ -17,7 +17,7 @@ export default function Ayudar() {
                 <h2 className="text-4xl font-semibold text-white">
                   Ayudanos
                 </h2>
-                <p className="text-lg font-semibold text-gray-100">
+                <p className="text-lg font-semibold text-rose-100">
                   ¡Podés ayudarnos a seguir rescatando gatitos!
                 </p>
                 <p className="text-lg leading-relaxed mt-6 mb-3 text-gray-1000">
@@ -30,7 +30,7 @@ export default function Ayudar() {
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <img src={credit} />
                 </div>
-                <h6 className="text-xl mt-5 font-semibold text-white">
+                <h6 className="text-xl mt-5 font-semibold text-rose-200">
                   Transferencia
                 </h6>
                 <p className="mt-2 text-gray-1000">
@@ -44,7 +44,7 @@ export default function Ayudar() {
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                 <img src={hand} />
                 </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
+                <h5 className="text-xl mt-5 font-semibold text-rose-200">
                   Mercado Pago
                 </h5>
                 <p className="mt-2 mb-4 text-gray-1000">

@@ -22,9 +22,9 @@ function Header() {
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
+            <a href="#home" className="block" aria-label="Cruip">
               <img className={`ease-transition duration-300 ease-in-out-out  ${!top ? 'cssLogo' : 'cssLogoBig translate-y-10'}`} src="src\images\logo.jpg" alt="logo" />
-            </Link>
+            </a>
           </div>
 
           {/* Site navigation */}

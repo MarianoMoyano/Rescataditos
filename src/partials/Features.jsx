@@ -32,7 +32,7 @@ function Features() {
           
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Consejos:</h1>
+            <h1 className="h2 mb-4">Consejos útiles</h1>
           {/*   <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p> */}
           </div>
 
@@ -43,7 +43,7 @@ function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 {/* <h3 className="h3 mb-3">Powerful </h3> */}
-                <p className="text-xl text-gray-600">¡Tips generales a la hora de cuidar tu hermoso michi!</p>
+                <p className="text-xl text-gray-600">¡Tips generales para cuidar a tu hermoso michi!</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -53,8 +53,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">¡Mantener a tu gato feliz!</div>
-                    <div className="text-gray-600">En este apartado te damos tips para que tu gato no se aburra y este feliz.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">¡Mantené a tu gato feliz!</div>
+                    <div className="text-gray-600">Tips para que tu gato no se aburra y esté feliz.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                      <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +69,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">El uso obligatorio de la red</div>
-                    <div className="text-gray-600">La función de la red es para que los animales no se escapen y se puedan extraviar o cosas peores.</div>
+                    <div className="text-gray-600">La función de la red es para que los gatos no se escapen y se puedan extraviar.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +84,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Lactantes</div>
-                    <div className="text-gray-600">Este tema es delicado dado que es para bebes muy chicos y en peligro, acá tenés una guía básica y rápida:</div>
+                    <div className="text-gray-600">Guía básica y rápida para cuidar lactantes.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

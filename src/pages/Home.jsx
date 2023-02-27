@@ -10,6 +10,7 @@ import Footer from '../partials/Footer';
 import Banner from '../partials/Banner';
 import Ayudar from '../partials/Ayudar';
 import Transito from '../partials/Transito';
+import Adopta from '../partials/Adopta';
 
 
 function Home() {
@@ -25,12 +26,12 @@ function Home() {
         {/*  Page sections */}
         {/*<HeroHome/>*/}
         <FeaturesBlocks/>
-        <FeaturesHome/>
         {/*<Testimonials/>*/} 
         {/*<Newsletter/>*/}
-
+        <Adopta />
         <Transito />
         <Ayudar />
+        <FeaturesHome/>
       
       </main> 
       {/*<Banner/>*/}
