@@ -7,6 +7,7 @@ import complaints from "/src/images/complaints.jpg"
 import donations from "/src/images/donations.jfif"
 import adopt from "/src/images/adopt.jpg"
 import ifoundacat from "/src/images/ifoundacat.jpg"
+import cats from "/src/images/cats.jpg"
 
 
 function FeaturesBlocks() {
@@ -15,7 +16,7 @@ function FeaturesBlocks() {
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="featuresBlocksPhotoCats left-0 top-1/2 absolute" style={{ transform: "translate(0, -60%)"}} aria-hidden="true">
-        <img src="/src/images/cats.jpg" alt="" />
+        <img src={cats} alt="" />
       </div>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
 
