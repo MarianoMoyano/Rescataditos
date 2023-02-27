@@ -27,7 +27,7 @@ function FeaturesBlocks() {
 
             {/* 1st item */}
             <Link to="/rescue">
-              <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
+              <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0 transition-all">
 
               <img className='cssifoundacat' src="/src/images/howtorescueacat.jpg" alt="howtorescueacat" />
                 {/*<svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +46,7 @@ function FeaturesBlocks() {
               </div>
             </Link>
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0 transition-all">
              
               <img className='cssifoundacat' src="/src/images/howtorescueacat.jpg" alt="howtorescueacat" />
 
@@ -66,7 +66,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0 transition-all">
               
               <img className='cssifoundacat' src="/src/images/complaints.jpg" alt="complaints" />
               {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,7 @@ function FeaturesBlocks() {
             </div>
 
               {/* 4th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0 transition-all">
               
               <img className='cssifoundacat' src="/src/images/donations.jfif" alt="donations" />
 
@@ -103,7 +103,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0 transition-all">
 
               <img className='cssifoundacat' src="/src/images/adopt.jpg" alt="adopt" />
 
@@ -121,7 +121,7 @@ function FeaturesBlocks() {
               </div>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl rotate-12 hover:rotate-0 transition-all">
 
               <img className='cssifoundacat' src="/src/images/ifoundacat.jpg" alt="ifoundacat" />
               {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
